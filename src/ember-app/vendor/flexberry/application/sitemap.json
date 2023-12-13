@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "Postamat3",
+  "applicationTitle": "Postamat3",
+  "items": [
+    {
+      "link": null,
+      "menuName": "postamat3",
+      "caption": "Postamat3",
+      "title": "Postamat3",
+      "children": [
+        {
+          "link": "i-i-s-postamat3-постамат-l",
+          "menuName": null,
+          "caption": "Постамат",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postamat3-пользователь-l",
+          "menuName": null,
+          "caption": "Пользователь",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postamat3-транзакция-l",
+          "menuName": null,
+          "caption": "Транзакция",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postamat3-служба-доставки-l",
+          "menuName": null,
+          "caption": "Служба доставки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postamat3-логистика-l",
+          "menuName": null,
+          "caption": "Логистика",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

@@ -1,0 +1,62 @@
+﻿{
+  "name": "IISPostamat3Ячейка",
+  "modelName": "i-i-s-postamat3-ячейка",
+  "className": "Ячейка",
+  "nameSpace": "IIS.Postamat3",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерЯчейки",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "постамат",
+      "relatedTo": "i-i-s-postamat3-постамат",
+      "inverse": "ячейка"
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "посылка",
+      "relatedTo": "i-i-s-postamat3-посылка",
+      "inverse": "ячейка"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ЯчейкаE",
+      "modelName": "i-i-s-postamat3-ячейка",
+      "attrs": [
+        {
+          "name": "номерЯчейки",
+          "caption": "Номер ячейки",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ПосылкаE",
+          "caption": "Посылка",
+          "name": "посылка",
+          "relatedTo": "i-i-s-postamat3-посылка",
+          "inverse": null
+        }
+      ]
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

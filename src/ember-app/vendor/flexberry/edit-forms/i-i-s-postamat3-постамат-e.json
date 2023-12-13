@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СлужбаДоставки",
+      "projection": "СлужбаДоставкиL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Ячейка.Посылка.Логистика",
+      "projection": "ЛогистикаL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Ячейка.Посылка.Транзакция",
+      "projection": "ТранзакцияL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Постамат",
+  "name": "IISPostamat3ПостаматE",
+  "className": "ПостаматE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-postamat3-постамат",
+      "modelProjection": "ПостаматE"
+    }
+  ]
+}

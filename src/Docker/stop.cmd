@@ -1,0 +1,1 @@
+docker-compose -p postamat3 down
